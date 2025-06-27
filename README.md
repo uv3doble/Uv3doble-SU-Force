@@ -1,7 +1,3 @@
-# Uv3doble – SU Force
-
-**Versión:** 1  
-**Autor:** Uv3doble
 
 ---
 
