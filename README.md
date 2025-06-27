@@ -1,7 +1,7 @@
 # Uv3doble – SU Force
 
 **Versión:** 1.7  
-**Autor:** Uv3doble (leury EA)
+**Autor:** Uv3doble
 
 **Descripción:**  
 Herramienta de fuerza bruta paralelizada para `su`, con hilos configurables, spinner y terminación instantánea al encontrar la contraseña.
