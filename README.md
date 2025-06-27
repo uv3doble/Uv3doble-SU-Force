@@ -1,10 +1,11 @@
+````markdown
 # Uv3doble – SU Force
 
 **Versión:** 1.7  
-**Autor:** Uv3doble
+**Autor:** Uv3doble (leury EA)
 
 **Descripción:**  
-Herramienta de fuerza bruta paralelizada para `su`, con hilos configurables, spinner de progreso y terminación instantánea al encontrar la contraseña.
+Herramienta de fuerza bruta paralelizada para `su`, con hilos configurables, spinner y terminación instantánea al encontrar la contraseña.
 
 **Requisitos:**  
 - Bash  
@@ -14,23 +15,27 @@ Herramienta de fuerza bruta paralelizada para `su`, con hilos configurables, spi
 **Instalación:**  
 ```bash
 chmod +x su_force.sh
+````
 
-Uso:
+**Uso:**
 
+```bash
 ./su_force.sh USUARIO DICCIONARIO.txt [HILOS]
+```
 
-    USUARIO: cuenta local.
+* `USUARIO`: cuenta local.
+* `DICCIONARIO.txt`: archivo `.txt` legible.
+* `HILOS`: procesos concurrentes (por defecto 4).
 
-    DICCIONARIO.txt: archivo .txt legible.
+**Ejemplo:**
 
-    HILOS: procesos concurrentes (por defecto 4).
-
-Ejemplo:
-
+```bash
 ./su_force.sh redghost rockyou.txt 8
+```
 
-Salida esperada:
+**Salida esperada:**
 
+```text
 [*] Iniciando ataque a 'redghost' con 'rockyou.txt' en 8 hilos...
 [*] Ataque en curso... /
 ╔════════════════════════════════╗
@@ -40,3 +45,10 @@ Salida esperada:
 ║ Diccionario: rockyou.txt       ║
 ║ Contraseña : estrella          ║
 ╚════════════════════════════════╝
+```
+
+**Notas:**
+Ajusta `HILOS` según CPU/IO; un timeout muy bajo puede generar falsos negativos.
+
+```
+```
