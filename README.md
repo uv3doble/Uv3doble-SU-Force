@@ -36,6 +36,7 @@ chmod +x su_force.sh
 ```
 
 **Salida esperada:**
+![image](https://github.com/user-attachments/assets/c8780432-06c1-4271-bd1d-09d6e0625d6a)
 
 ```text
 [*] Iniciando ataque a 'redghost' con 'rockyou.txt' en 8 hilos...
@@ -52,5 +53,3 @@ chmod +x su_force.sh
 **Notas:**
 Ajusta `HILOS` según CPU/IO; un timeout muy bajo puede generar falsos negativos.
 
-```
-```
