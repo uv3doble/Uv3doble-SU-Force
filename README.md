@@ -13,6 +13,9 @@ Herramienta de fuerza bruta paralelizada para `su`, con hilos configurables, spi
 
 **Instalación:**  
 ```bash
+https://github.com/uv3doble/Uv3doble-SU-Force.git
+````
+```bash
 chmod +x su_force.sh
 ````
 
